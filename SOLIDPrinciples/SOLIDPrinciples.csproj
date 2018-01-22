@@ -44,5 +44,11 @@
     <Compile Include="SingleResponsibility\OrderProblem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DependencyInversion\" />
+    <Folder Include="InferfaceSegregation\" />
+    <Folder Include="LiskovSubstitute\" />
+    <Folder Include="OpenClosed\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
